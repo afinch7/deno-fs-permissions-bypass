@@ -1,0 +1,1 @@
+Programs shouldn't be able to read this without permission from the user.
