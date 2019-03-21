@@ -1,5 +1,5 @@
 // Copyright 2018-2019 the Deno authors. All rights reserved. MIT license.
-import { libdeno } from "./libdeno.ts";
+import { window } from "./window.ts";
 import * as flatbuffers from "./flatbuffers.ts";
 import * as msg from "./msg_generated.ts";
 import * as errors from "./errors.ts";
