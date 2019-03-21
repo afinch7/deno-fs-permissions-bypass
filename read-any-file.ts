@@ -4,7 +4,6 @@ import { assert } from "./util.ts";
 import * as util from "./util.ts";
 import { TextDecoder } from "./text_encoding.ts";
 import { sendSync } from "./dispatch.ts";
-import * as deno from "deno";
 
 
 const decoder = new TextDecoder();
@@ -56,4 +55,4 @@ async function cat(filenames: string[]): Promise<void> {
     }
 }
   
-cat(deno.args.slice(1));
+cat(Deno.args.slice(1));
